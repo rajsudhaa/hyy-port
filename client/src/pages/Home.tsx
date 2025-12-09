@@ -13,24 +13,24 @@ export default function Home() {
         className="max-w-7xl mx-auto w-full"
       >
         <div className="overflow-hidden">
-          <motion.h1 
+          <motion.h1
             initial={{ y: "100%" }}
             animate={{ y: 0 }}
             transition={{ duration: 1, ease: "anticipate", delay: 0.2 }}
             className="text-[12vw] leading-[0.85] font-black uppercase text-white tracking-tighter mix-blend-difference"
           >
-            Creative
+            Sudha
           </motion.h1>
         </div>
         
         <div className="overflow-hidden">
-          <motion.h1 
+          <motion.h1
             initial={{ y: "100%" }}
             animate={{ y: 0 }}
             transition={{ duration: 1, ease: "anticipate", delay: 0.4 }}
             className="text-[12vw] leading-[0.85] font-black uppercase text-transparent text-stroke hover:text-acid transition-colors duration-500 cursor-none"
           >
-            Developer
+            Raj
           </motion.h1>
         </div>
 
